@@ -36,7 +36,7 @@
 - =: Auto indent
 - gUaw : makes the current word capital
 - gUap : makes the whole paragraph capital
-- >>: indents the current line
+- \>>: indents the current line
 - <<: indents back
 - gUU : changes the case of the entire line to capital
 - gg=G: Auto indent the whole file.
