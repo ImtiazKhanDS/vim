@@ -42,13 +42,13 @@
 - gg=G: Auto indent the whole file.
 
 ## Insert Mode
-ctrl h : Delete one character back
-ctrl w : Delete back one word
-ctrl u : Delete back start of the line.
-yt, : yanks the word till ,
-ctrl r + 0 : pastes the yanked text from register in insert mode.
-ctrl r + = : opens a bottom where we can do calculation after that press enter
-ctrl v + (any ascii code) : gives the letter for example ctrl v 065 => A
+- ctrl h : Delete one character back
+- ctrl w : Delete back one word
+- ctrl u : Delete back start of the line.
+- yt, : yanks the word till ,
+- ctrl r + 0 : pastes the yanked text from register in insert mode.
+- ctrl r + = : opens a bottom where we can do calculation after that press enter
+- ctrl v + (any ascii code) : gives the letter for example ctrl v 065 => A
 
 
 
