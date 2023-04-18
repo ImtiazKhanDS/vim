@@ -4,7 +4,7 @@
 - dot operator : Repeats the last action
 - x : changes a character
 - dd : deletes a entire line
-- >G : Indents from the cursor to the bottom of the file.
+- \>G : Indents from the cursor to the bottom of the file.
 - $ : Goes to the end of the line
 - a : appends in the next to cursor position
 - A : appends in the end of the line where cursor is present (equivalent to $a)
