@@ -15,7 +15,7 @@
 - , : finds the previous match.
 - / pattern : matches the regex pattern provided , press n for next match , N for previous match.
 - :s/target/replacement : substitutes the target with replacement , next target/replacement with &
-- * : When the cursor is at the start of a word we can search the next occurence by pressing *
+- \* : When the cursor is at the start of a word we can search the next occurence by pressing *
 - cw: change the entire word , by deleting and writing in insert mode.
 - %s:/target/replacement/g : replaces all the targets with replacements
 - db: deletes letter to the beginning of the word except the beginning letter.
