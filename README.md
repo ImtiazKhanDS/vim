@@ -67,18 +67,25 @@
 - trick : ctrl v jj$ followed by A; and then escape , inserts ; to the end of each line.
 
 ## Command Mode
-: command mode
-/: search prompt
-ctrl r= : to access expression register
-:edit : read file to edit
-:write : write file
-:tabnew : opens up a new tab
-:tabclose: closes up the current tab
-:split : split windows
-:ctrl w + movement keys (jklh) for toggling between panes
-:q to quit a pane
-:only to quit all other panes except the current pane
-
+- : command mode
+- /: search prompt
+- ctrl r= : to access expression register
+- :edit : read file to edit
+- :write : write file
+- :tabnew : opens up a new tab
+- :tabclose: closes up the current tab
+- :split : split windows
+- :ctrl w + movement keys (jklh) for toggling between panes
+- :q to quit a pane
+- :only to quit all other panes except the current pane
+- ctrl w : delete a word backward to the start of previous word
+- ctrl u : delete to the start of the line
+- :print {number} : does the corresponding action to the number of lines specified.
+- :delete {number} : does the corresponding action to the number of lines specified.
+- :join {number} : does the corresponding action to the number of lines specified.
+- :substitute {number} : does the corresponding action to the number of lines specified.
+- :normal {number} : does the corresponding action to the number of lines specified.
+- :action {start}, {end} : we can also specify the start and end of the lines.
 
 
 
