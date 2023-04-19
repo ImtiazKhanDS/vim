@@ -40,6 +40,7 @@
 - <<: indents back
 - gUU : changes the case of the entire line to capital
 - gg=G: Auto indent the whole file.
+- gUit:Capitalize all words inside a tag.
 
 ## Insert Mode
 - ctrl h : Delete one character back
@@ -49,6 +50,36 @@
 - ctrl r + 0 : pastes the yanked text from register in insert mode.
 - ctrl r + = : opens a bottom where we can do calculation after that press enter
 - ctrl v + (any ascii code) : gives the letter for example ctrl v 065 => A
+
+## Replace Mode
+- R : replace mode the line length doesn't change it overwrites the characters.
+- gR : same as above but treats the tab character as thought it consisted as spaces.
+
+## Visual Mode
+- v : Enable character-wise visual mode
+- V : Enable line-wise visual mode
+- ctrl+v:Enable block wise visual mode
+- gv : Reselect the last visual selection
+- o : Go to the other end of highlighted text
+- Vj + > : Indents the selected lines
+- vit : visually select inside a tag
+- Vr- : replace the whole line with -
+- trick : ctrl v jj$ followed by A; and then escape , inserts ; to the end of each line.
+
+## Command Mode
+: command mode
+/: search prompt
+ctrl r= : to access expression register
+:edit : read file to edit
+:write : write file
+:tabnew : opens up a new tab
+:tabclose: closes up the current tab
+:split : split windows
+:ctrl w + movement keys (jklh) for toggling between panes
+:q to quit a pane
+:only to quit all other panes except the current pane
+
+
 
 
 
