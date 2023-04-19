@@ -86,6 +86,7 @@
 - :substitute {number} : does the corresponding action to the number of lines specified.
 - :normal {number} : does the corresponding action to the number of lines specified.
 - :action {start}, {end} : we can also specify the start and end of the lines.
+- %p : print all the files in the file
 
 
 
